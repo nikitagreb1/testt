@@ -1,0 +1,457 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header {
+}
+.main {
+	padding: 100px 0;
+	background: url("../img/fish-1.png");
+}
+.main-container {
+	max-width: 1400px;
+	margin: 0 auto;
+	background: rgba(255, 255, 255, 0.904);
+	box-shadow: 5px 5px 15px 1px black;
+	padding-top: 45px;
+}
+
+.descr {
+	margin-bottom: 45px;
+}
+
+.descr > *:last-child {
+	margin-bottom: 0;
+}
+
+.descr > p {
+	margin-bottom: 45px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.descr > p:nth-of-type(2) {
+	text-transform: uppercase;
+	color: red;
+}
+
+.descr h2 {
+	text-align: center;
+	font-size: 50px;
+	color: red;
+	margin-bottom: 45px;
+}
+
+.block {
+	max-width: 800px;
+	min-height: 800px;
+	border: 5px solid rgb(255, 72, 72);
+	background: white;
+	border-radius: 25px;
+	margin: 0 auto 100px;
+}
+
+.block:hover {
+	border: 5px solid rgb(252, 166, 166);
+}
+
+/* Зеленый блок */
+.green {
+	display: none;
+	background: rgb(97, 255, 97);
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+.green:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(44, 44, 44);
+}
+
+.green > h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+}
+
+.green > .g-text {
+	margin-bottom: 100px;
+}
+
+.green > .g-text > p {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+
+.green > .g-text:last-child {
+	margin-bottom: 0;
+}
+/* Розовый блок */
+.pink {
+	display: none;
+	background: pink;
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+.pink:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(44, 44, 44);
+}
+
+.pink > h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.pink > .p-text {
+	margin-bottom: 100px;
+}
+
+.pink > .p-text > p {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Times New Roman", sans-serif;
+}
+
+.pink > .p-text:last-child {
+	margin-bottom: 0;
+}
+
+/* Синий блок */
+
+.blue {
+	display: none;
+	background: rgb(100, 100, 255);
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+.blue:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(44, 44, 44);
+}
+
+.blue > h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+	font-family: "Times New Roman", sans-serif;
+}
+
+/* Черный блок */
+
+.black {
+	display: none;
+	background: black;
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(223, 223, 223);
+}
+
+.black:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(255, 255, 255);
+}
+
+.black > h2 {
+	color: white;
+	font-size: 44px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.black > .black-text {
+	margin-bottom: 100px;
+}
+
+.black > .black-text > p {
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.black > .black-text:last-child {
+	margin-bottom: 0;
+}
+
+/* Желтый блок */
+
+.yellow {
+	display: none;
+	background: yellow;
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+.yellow:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(44, 44, 44);
+}
+
+.yellow > h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+}
+
+.yellow > .yellow-text {
+	margin-bottom: 100px;
+}
+
+.yellow > .yellow-text > p {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	opacity: 0.2;
+}
+
+.yellow > .yellow-text:last-child {
+	margin-bottom: 0;
+}
+
+/* Фиолетовый блок */
+
+.violet {
+	display: none;
+	background: violet url("../img/memes.png") center bottom/ 200px 200px no-repeat;
+	max-width: 800px;
+	min-height: 800px;
+	padding-top: 30px;
+	border-radius: 19px;
+	box-shadow: inset 0px 0px 15px 1px rgb(0, 0, 0);
+}
+
+.violet:hover {
+	box-shadow: inset 0px 0px 15px 1px rgb(44, 44, 44);
+}
+
+.violet > h2 {
+	color: black;
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 100px;
+	font-weight: 700;
+}
+
+.violet > .violet-text {
+	margin-bottom: 100px;
+}
+
+.violet > .violet-text > p {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+
+.violet > .violet-text:last-child {
+	margin-bottom: 0;
+}
+
+.discl {
+	max-width: 855px;
+	margin: 0 auto 100px;
+}
+
+.discl p {
+	text-align: center;
+	font-size: 25px;
+}
+
+.discl > p::after {
+	content: "";
+	width: 45%;
+	height: 2px;
+	background: #000;
+	display: block;
+}
+
+.discl > p:hover::after {
+	content: "";
+	width: 100%;
+}
+
+.link-list {
+	max-width: 800px;
+	margin: 0 auto 60px;
+	padding-bottom: 30px;
+}
+
+.row-1,
+.row-2,
+.row-3 {
+	margin-bottom: 80px;
+}
+
+.link-list > .row-1 > a:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	background: rgb(97, 255, 97);
+	display: inline-block;
+	margin-right: 596px;
+	font-size: 0;
+	line-height: 0;
+}
+.link-list > .row-1 > a:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	background: pink;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+.link-list > .row-2 > a:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	background: rgb(100, 100, 255);
+	display: inline-block;
+	margin-right: 596px;
+	font-size: 0;
+	line-height: 0;
+	border: 5px solid rgb(250, 193, 193);
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 5px 1px black;
+}
+
+.link-list > .row-2 > a:nth-of-type(1):hover {
+	border: 5px solid rgb(252, 227, 227);
+	box-shadow: inset 0px 0px 5px 1px rgb(100, 100, 100);
+}
+
+.link-list > .row-2 > a:nth-of-type(2):hover {
+	border: 5px solid rgb(252, 227, 227);
+	box-shadow: inset 0px 0px 5px 1px rgb(255, 255, 255);
+}
+
+.link-list > .row-2 > a:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	background: black;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+	border: 5px solid rgb(250, 193, 193);
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 5px 1px rgb(255, 255, 255);
+}
+.link-list > .row-3 > a:nth-of-type(1) {
+	width: 100px;
+	height: 100px;
+	background: yellow;
+	display: inline-block;
+	margin-right: 596px;
+	font-size: 0;
+	line-height: 0;
+}
+.link-list > .row-3 > a:nth-of-type(2) {
+	width: 100px;
+	height: 100px;
+	background: violet;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+
+.link-list > .row-1 > a {
+	border: 5px solid rgb(250, 193, 193);
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 5px 1px black;
+}
+
+.link-list > .row-1 > a:hover {
+	border: 5px solid rgb(252, 227, 227);
+	box-shadow: inset 0px 0px 5px 1px rgb(100, 100, 100);
+}
+
+.link-list > .row-2 > a {
+}
+
+.link-list > .row-3 > a {
+	border: 5px solid rgb(250, 193, 193);
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 5px 1px black;
+}
+
+.link-list > .row-3 > a:hover {
+	border: 5px solid rgb(252, 227, 227);
+	box-shadow: inset 0px 0px 5px 1px rgb(100, 100, 100);
+}
+
+.link-list > .reset {
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+}
+
+.link-list > .reset > a {
+	display: block;
+	width: 100px;
+	height: 100px;
+	background: white;
+	text-align: center;
+	padding-top: 37px;
+	border: 5px solid rgb(153, 101, 101);
+	border-radius: 15px;
+	border: 5px solid rgb(250, 193, 193);
+	border-radius: 15px;
+	box-shadow: inset 0px 0px 5px 1px black;
+}
+
+.link-list > .reset > a:hover {
+	border: 5px solid rgb(252, 227, 227);
+	box-shadow: inset 0px 0px 5px 1px rgb(100, 100, 100);
+	color: rgba(0, 0, 0, 0.199);
+}
+
+.green:target {
+	display: block;
+}
+
+.pink:target {
+	display: block;
+}
+
+.blue:target {
+	display: block;
+}
+
+.black:target {
+	display: block;
+}
+
+.yellow:target {
+	display: block;
+}
+
+.violet:target {
+	display: block;
+}
